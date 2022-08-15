@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 98, 113);
+    scroll-behavior: smooth;
+}
+
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navigation{
+    list-style: none;
+}
+
+nav{
+    position:sticky;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover {
+    color: #0088a9
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.mainpage{
+    margin: 100px auto;
+    width: 70%;
+    padding: 8px;
+    height: 80%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.dp {
+    float: left;
+    height: 350px;
+    width: 350px;
+    padding: 0 10px 0 0;
+}
+
+.maintext{
+    text-align: justify;
+    font-family: verdana;
+    font-size: 22px;
+}
+
+section{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    
+}
+
+#home{
+    border-style: solid;
+}
+#skills{
+    border-style: solid;
+}
+#education{
+    border-style: solid;
+}
+#about{    border-style: solid;
+}
+#contact{    border-style: solid;
+}
+
+.skillsheader{
+    
+    background-color: blue;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 100px;
+    
+}
+
+.skillscontent{
+    margin-left: 200px;
+    text-align: justify;
+    font-family: verdana;
+    font-size: 22px;
+
+}
+
+.webdev li, .proglang li{
+    padding-left:80px;
+    list-style: none;
+}
+
+.educationheader{
+
+    background-color: blue;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 100px;
+    height: 10%;
+    display: block;
+}
+
+.educationcontent{
+    background-color: aqua;
+    font-size: 35px;
+    margin-right: 2320px;
+}
+
+.aboutheader{
+    display: flex;
+    background-color: blue;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 100px;
+}
+
+.contactheader{
+    background-color: blue;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 100px;
+}
